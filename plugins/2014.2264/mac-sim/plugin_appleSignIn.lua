@@ -5,7 +5,7 @@ local lib = Library:new{ name='plugin.appleSignIn', publisherId='tech.scotth' }
 
 -- Default implementations
 local function defaultFunction()
-	print( "WARNING: The '" .. lib.name .. "' library is not available on this platform." )
+	print( "WARNING: you not using the lastest version of ".. lib.name ..", please go to https://solar2dmarketplace.com/plugins?AppleSignIn_tech-scotth" )
 end
 
 lib.getCredentialState= defaultFunction
